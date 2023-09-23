@@ -1,0 +1,240 @@
+/* color texto principal index  */
+.colortextoind{
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 140px;
+    right: auto;
+    font-family: Montserrat;
+    color: black;
+    object-fit: fill;
+    
+   
+}
+
+.fondoopa{
+    background-image: url('../imagenes/fondorack.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Color fonod menu superior */ 
+nav {
+    background-color: #dedfda; 
+    padding: 10px 10px; 
+    margin: 0px; 
+}
+
+
+
+/* UL para pestañas en inicio */
+ul {
+    list-style-type: none;
+    padding: 100;
+    margin: 0;
+   display: flex; 
+   justify-content: flex-start; 
+}
+
+.top {
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 20%;
+}
+
+
+
+/* div rida imagen */
+.imagendiv {
+    width: 30px; /* Ancho del div */
+    height: 20px; /* Alto del div */
+    border: 1px solid #000000; 
+    margin: 20px; 
+}
+
+.imagen-rida {
+    width: 10%; /* La imagen ocupa todo el ancho del div */
+    height: 10%; /* La imagen ocupa todo el alto del div */
+}
+
+/* Div para los links */
+.divlinks{
+    position: absolute;
+    top: 3%;
+    right: 15%;
+    border: 1px #000000;
+}
+
+li {
+    margin-right: 5%;
+    font-size: x-large;
+}
+
+
+a {
+    text-decoration: none;
+    color: #135493; 
+    font-weight: bold; 
+}
+
+.diseño{
+    font-weight: lighter;
+}
+
+.boton{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    color: #ffffff;
+    background-color: #135493;
+    font-size: 24px;
+    width: 300px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+
+.formulario {
+   
+    width: 100%;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.formulario label,
+.formulario input,
+.formulario textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+.formulario button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #050505;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #333; 
+    color: #fff; 
+    position: fixed;
+    bottom: 0; 
+    width: 150%;
+
+}
+
+p{
+    font-style: italic;
+    color: #fff;
+    background-color: #333;
+    border-radius: 15% ;
+}
+.paragraph {
+    position: relative;
+    left: 50px;
+    top: 140px;
+    font-family: Montserrat;
+    color: black;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+
+.menu-item p {
+    margin-top: 10px;
+}
+
+
+.menu-lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    list-style: none;
+    background-color: #4f1e04;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100%; 
+    
+    height: 300px; 
+}
+
+.menu-item p {
+    margin-top: 10px; 
+}
+
+.nav-link {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-family: Montserrat;
+    color: #135493;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+  }
+  
+  .nav-link:small {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .nav-link:focus-visible {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    outline-color: hsla(214.6153846153846, 100.00%, 37.00%, 1.00);
+    outline-offset: 0px;
+    outline-style: solid;
+    outline-width: 2px;
+    color: hsla(214.6153846153846, 100.00%, 37.00%, 1.00);
+  }
+  
+  .nav-link:medium {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  .nav-link:hover {
+    color: rgba(26, 27, 31, 0.75);
+  }
+
